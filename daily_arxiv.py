@@ -129,7 +129,7 @@ def get_daily_papers(topic, query="slam", max_results=50):
             paper_url = arxiv_url + 'abs/' + paper_key
 
             try:
-                r = requests.get(code_url).json()
+                r = requests.get(code_url, verify=False).json()
                 repo_url = None
                 if "official" in r and r["official"]:
                     repo_url = r["official"]["url"]
