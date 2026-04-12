@@ -2,7 +2,7 @@
 layout: default
 ---
 
-## Updated on 2026.04.10
+## Updated on 2026.04.12
 > Usage instructions: [here](./docs/README.md#usage)
 
 ## Vector Database and Approximate Nearest Neighbor
